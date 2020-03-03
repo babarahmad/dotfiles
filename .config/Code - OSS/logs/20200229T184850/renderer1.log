@@ -1,0 +1,4 @@
+[2020-02-29 18:48:52.881] [renderer1] [error] Error: [File Watcher (node.js)] Error: ENOENT: no such file or directory, stat '/home/tux/index.php'
+[2020-02-29 18:48:52.882] [renderer1] [error] [File Watcher (node.js)] Error: ENOENT: no such file or directory, stat '/home/tux/index.php'
+[2020-02-29 18:49:00.689] [renderer1] [error] Unable to read file '/home/tux/index.php' (Error: Unable to resolve non-existing file '/home/tux/index.php'): Error: Unable to read file '/home/tux/index.php' (Error: Unable to resolve non-existing file '/home/tux/index.php')
+    at _.doReadAsFileStream (file:///usr/lib/code/out/vs/workbench/workbench.desktop.main.js:1617:417)

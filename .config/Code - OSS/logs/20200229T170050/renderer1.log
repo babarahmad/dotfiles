@@ -1,0 +1,4 @@
+[2020-02-29 17:01:33.946] [renderer1] [error] Error: [File Watcher (node.js)] Error: ENOENT: no such file or directory, stat '/home/tux/index.php'
+[2020-02-29 17:01:33.947] [renderer1] [error] [File Watcher (node.js)] Error: ENOENT: no such file or directory, stat '/home/tux/index.php'
+[2020-02-29 17:18:45.028] [renderer1] [error] Error: [File Watcher (node.js)] Error: ENOENT: no such file or directory, stat '/home/tux/index.php'
+[2020-02-29 17:18:45.028] [renderer1] [error] [File Watcher (node.js)] Error: ENOENT: no such file or directory, stat '/home/tux/index.php'

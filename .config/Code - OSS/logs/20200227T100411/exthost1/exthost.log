@@ -1,0 +1,52 @@
+[2020-02-27 10:04:14.046] [exthost] [info] extension host started
+[2020-02-27 10:04:14.066] [exthost] [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch {"startup":true,"extensionId":{"value":"vscode.debug-auto-launch","_lower":"vscode.debug-auto-launch"},"activationEvent":"*"}
+[2020-02-27 10:04:14.066] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/lib/code/extensions/debug-auto-launch/dist/extension
+[2020-02-27 10:04:14.070] [exthost] [info] ExtensionService#_doActivateExtension vscode.emmet {"startup":true,"extensionId":{"value":"vscode.emmet","_lower":"vscode.emmet"},"activationEvent":"*"}
+[2020-02-27 10:04:14.071] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/lib/code/extensions/emmet/dist/extension
+[2020-02-27 10:04:14.082] [exthost] [info] ExtensionService#_doActivateExtension vscode.git {"startup":true,"extensionId":{"value":"vscode.git","_lower":"vscode.git"},"activationEvent":"*"}
+[2020-02-27 10:04:14.083] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/lib/code/extensions/git/dist/main
+[2020-02-27 10:04:14.100] [exthost] [info] ExtensionService#_doActivateExtension vscode.merge-conflict {"startup":true,"extensionId":{"value":"vscode.merge-conflict","_lower":"vscode.merge-conflict"},"activationEvent":"*"}
+[2020-02-27 10:04:14.100] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/lib/code/extensions/merge-conflict/dist/extension
+[2020-02-27 10:04:14.102] [exthost] [info] ExtensionService#_doActivateExtension vscode.search-result {"startup":true,"extensionId":{"value":"vscode.search-result","_lower":"vscode.search-result"},"activationEvent":"*"}
+[2020-02-27 10:04:14.102] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/lib/code/extensions/search-result/dist/extension.js
+[2020-02-27 10:04:14.103] [exthost] [info] ExtensionService#_doActivateExtension vscode.vscode-account {"startup":true,"extensionId":{"value":"vscode.vscode-account","_lower":"vscode.vscode-account"},"activationEvent":"*"}
+[2020-02-27 10:04:14.104] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/lib/code/extensions/vscode-account/dist/extension.js
+[2020-02-27 10:04:14.108] [exthost] [info] eager extensions activated
+[2020-02-27 10:04:21.209] [exthost] [info] ExtensionService#_doActivateExtension vscode.php-language-features {"startup":false,"extensionId":{"value":"vscode.php-language-features","_lower":"vscode.php-language-features"},"activationEvent":"onLanguage:php"}
+[2020-02-27 10:04:21.209] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/lib/code/extensions/php-language-features/dist/phpMain
+[2020-02-27 10:04:21.228] [exthost] [info] ExtensionService#_doActivateExtension bmewburn.vscode-intelephense-client {"startup":false,"extensionId":{"value":"bmewburn.vscode-intelephense-client","_lower":"bmewburn.vscode-intelephense-client"},"activationEvent":"onLanguage:php"}
+[2020-02-27 10:04:21.228] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/tux/.vscode-oss/extensions/bmewburn.vscode-intelephense-client-1.3.11/lib/extension
+[2020-02-27 10:04:39.821] [exthost] [info] ExtensionService#_doActivateExtension vscode.configuration-editing {"startup":false,"extensionId":{"value":"vscode.configuration-editing","_lower":"vscode.configuration-editing"},"activationEvent":"onLanguage:jsonc"}
+[2020-02-27 10:04:39.821] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/lib/code/extensions/configuration-editing/dist/extension
+[2020-02-27 10:04:39.824] [exthost] [info] ExtensionService#_doActivateExtension vscode.json-language-features {"startup":false,"extensionId":{"value":"vscode.json-language-features","_lower":"vscode.json-language-features"},"activationEvent":"onLanguage:jsonc"}
+[2020-02-27 10:04:39.824] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/lib/code/extensions/json-language-features/client/dist/jsonMain
+[2020-02-27 10:04:39.845] [exthost] [info] ExtensionService#_doActivateExtension vscode.typescript-language-features {"startup":false,"extensionId":{"value":"vscode.typescript-language-features","_lower":"vscode.typescript-language-features"},"activationEvent":"onLanguage:jsonc"}
+[2020-02-27 10:04:39.845] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/lib/code/extensions/typescript-language-features/dist/extension
+[2020-02-27 10:04:59.316] [exthost] [error] [vscode.json-language-features] provider FAILED
+[2020-02-27 10:04:59.318] [exthost] [error] Error: Invalid arguments
+	at new g (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:372:70)
+	at new g (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:369:561)
+	at g (/usr/lib/code/extensions/json-language-features/client/dist/jsonMain.js:9:96437)
+	at /usr/lib/code/extensions/json-language-features/client/dist/jsonMain.js:9:97707
+	at C (/usr/lib/code/extensions/json-language-features/client/dist/jsonMain.js:9:97957)
+[2020-02-27 10:04:59.691] [exthost] [error] [vscode.json-language-features] provider FAILED
+[2020-02-27 10:04:59.692] [exthost] [error] Error: Invalid arguments
+	at new g (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:372:70)
+	at new g (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:369:561)
+	at g (/usr/lib/code/extensions/json-language-features/client/dist/jsonMain.js:9:96437)
+	at /usr/lib/code/extensions/json-language-features/client/dist/jsonMain.js:9:97707
+	at C (/usr/lib/code/extensions/json-language-features/client/dist/jsonMain.js:9:97957)
+[2020-02-27 10:05:01.401] [exthost] [error] [vscode.json-language-features] provider FAILED
+[2020-02-27 10:05:01.402] [exthost] [error] Error: Invalid arguments
+	at new g (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:372:70)
+	at new g (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:369:561)
+	at g (/usr/lib/code/extensions/json-language-features/client/dist/jsonMain.js:9:96437)
+	at /usr/lib/code/extensions/json-language-features/client/dist/jsonMain.js:9:97707
+	at C (/usr/lib/code/extensions/json-language-features/client/dist/jsonMain.js:9:97957)
+[2020-02-27 10:05:01.658] [exthost] [error] [vscode.json-language-features] provider FAILED
+[2020-02-27 10:05:01.658] [exthost] [error] Error: Invalid arguments
+	at new g (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:372:70)
+	at new g (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:369:561)
+	at g (/usr/lib/code/extensions/json-language-features/client/dist/jsonMain.js:9:96437)
+	at /usr/lib/code/extensions/json-language-features/client/dist/jsonMain.js:9:97707
+	at C (/usr/lib/code/extensions/json-language-features/client/dist/jsonMain.js:9:97957)

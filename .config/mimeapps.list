@@ -1,0 +1,7 @@
+[Default Applications]
+video/mp4=vlc.desktop
+text/plain=leafpad.desktop
+
+[Added Associations]
+video/mp4=vlc.desktop;
+text/plain=leafpad.desktop;

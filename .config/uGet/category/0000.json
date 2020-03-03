@@ -1,0 +1,229 @@
+{
+	"info": {
+		"relation": {
+			"group": 0,
+			"priority": 1
+		},
+		"category": {
+			"hosts": [
+				".edu",
+				".idv"
+			],
+			"schemes": [
+				"ftps",
+				"magnet"
+			],
+			"file-exts": [
+				"torrent",
+				"metalink"
+			],
+			"active-limit": 3,
+			"finished-limit": 300,
+			"recycled-limit": 300
+		},
+		"common": {
+			"name": "New 0",
+			"folder": "\/home\/tux",
+			"connect-timeout": 15,
+			"transmit-timeout": 30,
+			"retry-delay": 6,
+			"retry-limit": 99,
+			"retry-count": 0,
+			"max-connections": 1,
+			"max-upload-speed": 0,
+			"max-download-speed": 0,
+			"timestamp": 1
+		}
+	},
+	"children": [
+		{
+			"info": {
+				"relation": {
+					"group": 72,
+					"priority": 1
+				},
+				"progress": {
+					"complete": 837714,
+					"total": 837714,
+					"elapsed": 3,
+					"uploaded": 0,
+					"percent": 100
+				},
+				"log": {
+					"added-time": 1583259391,
+					"completed-time": 1583259394,
+					"messages": [
+						{
+							"string": "Resumable",
+							"type": 2,
+							"time": 1583259393
+						}
+					]
+				},
+				"http": {
+					"cookie-file": "\/home\/tux\/.config\/uGet\/attachment\/63F986A8.cookie",
+					"redirection-limit": 30
+				},
+				"proxy": {
+					"port": 80,
+					"type": 0
+				},
+				"common": {
+					"name": "Arch-dark.png",
+					"uri": "https:\/\/wallpapercave.com\/wp\/NOFQh9F.png",
+					"file": "Arch-dark.png",
+					"folder": "\/home\/tux",
+					"connect-timeout": 15,
+					"transmit-timeout": 30,
+					"retry-delay": 6,
+					"retry-limit": 99,
+					"retry-count": 0,
+					"max-connections": 1,
+					"max-upload-speed": 0,
+					"max-download-speed": 0,
+					"timestamp": 1
+				},
+				"files": {
+					"list": [
+						{
+							"path": "\/home\/tux\/Arch-dark.png",
+							"type": 0,
+							"state": 8,
+							"total": 0,
+							"complete": 0
+						}
+					]
+				}
+			},
+			"children": [
+			]
+		},
+		{
+			"info": {
+				"relation": {
+					"group": 72,
+					"priority": 1
+				},
+				"progress": {
+					"complete": 333314,
+					"total": 333314,
+					"elapsed": 2,
+					"uploaded": 0,
+					"percent": 100
+				},
+				"log": {
+					"added-time": 1583076566,
+					"completed-time": 1583076568,
+					"messages": [
+						{
+							"string": "Resumable",
+							"type": 2,
+							"time": 1583076567
+						}
+					]
+				},
+				"http": {
+					"referrer": "https:\/\/www.gnome-look.org\/dl?file_id=1583055860&file_type=application\/zip&file_name=Ultimate-Plata-Dark_1.9.3.zip&file_size=333314&has_torrent=0&project_id=1313394&link_type=download&is_external=false&external_link=null",
+					"cookie-file": "\/home\/tux\/.config\/uGet\/attachment\/6ED7F1A9.cookie",
+					"redirection-limit": 30
+				},
+				"proxy": {
+					"port": 80,
+					"type": 0
+				},
+				"common": {
+					"name": "Ultimate-Plata-Dark_1.9.3.zip",
+					"uri": "https:\/\/dllb2.pling.com\/api\/files\/download\/j\/eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6IjE1ODMwNTU4NjAiLCJ1IjpudWxsLCJsdCI6ImRvd25sb2FkIiwicyI6IjhhOTk0ZDA1NDM3YzNjODhhZjhiYjY1ZjU4YTEzOGI3YzFmNTI4MmE5NDMyZmRmNjkzNDNhM2Y4OWMxYmMyMzVmZGNmMTYwZjM1M2QyNTY0YWYyNWQzYTZiNjUzNDY1MjVmMjgwMzFkMjA5MjMzZTlkNjFjNDhhNzM0YjAxOTQ3IiwidCI6MTU4MzA4MDE1Mywic3RmcCI6ImY5ZmUxN2U1YjkwZDA0OWJiYzE3OWMxZDI0NjMyMzg0Iiwic3RpcCI6IjE4Mi4xODYuMjIuNiJ9.AqLaY2gI056Ba_qX3IRFnEGBjMVEFf8W2nGeKOMXSdY\/Ultimate-Plata-Dark_1.9.3.zip",
+					"file": "Ultimate-Plata-Dark_1.9.3.zip",
+					"folder": "\/home\/tux",
+					"connect-timeout": 15,
+					"transmit-timeout": 30,
+					"retry-delay": 6,
+					"retry-limit": 99,
+					"retry-count": 0,
+					"max-connections": 1,
+					"max-upload-speed": 0,
+					"max-download-speed": 0,
+					"timestamp": 1
+				},
+				"files": {
+					"list": [
+						{
+							"path": "\/home\/tux\/Ultimate-Plata-Dark_1.9.3.zip",
+							"type": 0,
+							"state": 8,
+							"total": 0,
+							"complete": 0
+						}
+					]
+				}
+			},
+			"children": [
+			]
+		},
+		{
+			"info": {
+				"relation": {
+					"group": 72,
+					"priority": 1
+				},
+				"progress": {
+					"complete": 13066268,
+					"total": 13066268,
+					"elapsed": 14,
+					"uploaded": 0,
+					"percent": 100
+				},
+				"log": {
+					"added-time": 1583072858,
+					"completed-time": 1583072873,
+					"messages": [
+						{
+							"string": "Resumable",
+							"type": 2,
+							"time": 1583072859
+						}
+					]
+				},
+				"http": {
+					"referrer": "https:\/\/www.teamviewer.com\/en-us\/download\/linux\/",
+					"cookie-file": "\/home\/tux\/.config\/uGet\/attachment\/35DC1675.cookie",
+					"redirection-limit": 30
+				},
+				"proxy": {
+					"port": 80,
+					"type": 0
+				},
+				"common": {
+					"name": "teamviewer_15.3.2682_amd64.tar.xz",
+					"uri": "https:\/\/dl.teamviewer.com\/download\/linux\/version_15x\/teamviewer_15.3.2682_amd64.tar.xz",
+					"file": "teamviewer_15.3.2682_amd64.tar.xz",
+					"folder": "\/home\/tux",
+					"connect-timeout": 15,
+					"transmit-timeout": 30,
+					"retry-delay": 6,
+					"retry-limit": 99,
+					"retry-count": 0,
+					"max-connections": 1,
+					"max-upload-speed": 0,
+					"max-download-speed": 0,
+					"timestamp": 1
+				},
+				"files": {
+					"list": [
+						{
+							"path": "\/home\/tux\/teamviewer_15.3.2682_amd64.tar.xz",
+							"type": 0,
+							"state": 8,
+							"total": 0,
+							"complete": 0
+						}
+					]
+				}
+			},
+			"children": [
+			]
+		}
+	]
+}
+
