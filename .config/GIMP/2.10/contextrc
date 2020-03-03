@@ -1,0 +1,15 @@
+# GIMP user context
+
+(tool "gimp-clone-tool")
+(paint-info "gimp-clone")
+(foreground (color-rgb 0.094117647058823528 0.18823529411764706 0.42352941176470588))
+(brush "2. Hardness 050")
+(dynamics "Dynamics Off")
+(mybrush "100% Opaque")
+(pattern "Pine")
+(gradient "FG to BG (RGB)")
+(palette "Color History")
+(font "Sans-serif")
+(tool-preset "Core Pointer")
+
+# end of user context
