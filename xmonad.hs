@@ -6,7 +6,7 @@ import XMonad.Hooks.DynamicLog
 import qualified XMonad.StackSet as W
 import qualified Data.Map        as M
 import XMonad.Util.SpawnOnce
-
+import XMonad.Layout.Spacing
 -- The preferred terminal program, which is used in a binding below and by
 -- certain contrib modules.
 --
@@ -182,7 +182,7 @@ myMouseBindings (XConfig {XMonad.modMask = modm}) = M.fromList $
 -- The available layouts.  Note that each layout is separated by |||,
 -- which denotes layout choice.
 --
-myLayout = tiled ||| Mirror tiled ||| Full
+myLayout = spacing 5 $ tiled ||| Mirror tiled ||| Full
   where
      -- default tiling algorithm partitions the screen into two panes
      tiled   = Tall nmaster delta ratio
@@ -195,6 +195,8 @@ myLayout = tiled ||| Mirror tiled ||| Full
 
      -- Percent of screen to increment by when resizing panes
      delta   = 3/100
+
+     
 
 ------------------------------------------------------------------------
 -- Window rules:
@@ -248,6 +250,7 @@ myStartupHook = do
 	spawnOnce "nitrogen --restore &"
 	spawnOnce "picom --experimental-backends &"
 ------------------------------------------------------------------------
+
 -- Command to launch the bar.
 
 myBar = "xmobar"
